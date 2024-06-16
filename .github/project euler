@@ -13,3 +13,15 @@ result = sum_of_multiples(1000)
 print(result)
 
 #Problem 2
+def sum_even(limit):
+    a, b = 1,2
+    tot_sum = 0
+
+    while a <= limit:
+        if a % 2 == 0:
+            tot_sum += a
+        a, b=b, a+b
+
+    return tot_sum
+result = sum_even(4000000)
+print(result)
