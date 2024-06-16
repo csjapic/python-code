@@ -25,3 +25,17 @@ def sum_even(limit):
     return tot_sum
 result = sum_even(4000000)
 print(result)
+
+#Problem 3
+def large_prime(n):
+    i=2
+    while i*i <= n:
+        if n % i:
+            i += 1
+        else:
+            n //=i
+    return n
+number = 600851475143
+
+result= large_prime(number)
+print(result)
