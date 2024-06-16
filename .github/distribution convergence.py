@@ -22,7 +22,7 @@ plt.xlabel('Value')
 plt.ylabel('Frequency')
 
 plt.subplot(1, 2, 2)
-plt.hist(normal_dat, bins=50, color='red', edgecolor='black', alpha=0.7)
+plt.hist(norm_dat, bins=50, color='red', edgecolor='black', alpha=0.7)
 plt.title('Normal Distribution (mean=500, std_dev=15.81)')
 plt.xlabel('Value')
 plt.ylabel('Frequency')
